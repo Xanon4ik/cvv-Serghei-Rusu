@@ -1,1 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Onest&family=Rubik&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Onest'
+}
+
+.header {
+    background-color: #bde0fe;
+}
+
+nav {
+    max-width: 960px;
+    margin: 0px auto;
+    padding: 20px 0px;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+p {
+    line-height: 145%;
+    font: 17px;
+}
+
+.nav-link {
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 22px;
+    font-family: 'Rubik';
+    color: #3a3a3a;
+
+}
+
+.main {
+    max-width: 960px;
+    margin: 0px auto;
+    padding: 30px 20px;
+    min-height: 100dvh;
+
+}
+
+.info {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 25px 40px;
+    margin-top: 20px;
+}
+
+.poza-eu {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    /* margin: 0px auto;
+    /* display: block; */
+    /*pentru alinierea fara alt div */
+
+}
+
+.centered {
+    text-align: center;
+
+
+}
+
+.celula-abilitati {
+    width: 300px;
+    font-size: 18px;
+    padding-right: 20px;
+    vertical-align: top;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.albastru {
+    color: #6bb6ec;
+}
+
+
+.celula-text {
+    vertical-align: top;
+
+}
+
+.text-despre {
+    margin-top: 0px;
+}
+
+.img-gal {
+    height: 170px;
+    width: 170px;
+    object-fit: cover;
+}
+
+.tabel-galerie {
+    width: 100%;
+
+}
+
+.celula-img {
+    width: 25%;
+    padding: 5px;
+}
+
+.item {
+    border-bottom: 2px solid #161d6a;
+    padding: 4px;
+}
+
+.item span {
+    font-size: 15px;
+}
+
+footer {
+    text-align: center;
+    padding: 25px;
+    background-color: #3b13ef;
+}
+
+.tabel-contacte {
+    width: 100%;
+    height: 62vh;
+}
+
+.celula-formular {
+    width: 50%;
+    vertical-align: top;
+    padding-right: 40px;
+}
+
+.celula-harta {
+    width: 50%;
+}
+
+.harta {
+    width: 100%;
+    height: 450px;
+    border-radius: 5px;
+}
+
+.text-input,
+.intrebare {
+    width: 100%;
+    font: 15px;
+    padding: 4px;
+    border-radius: 5px;
+    border: 2px solid rgb(197, 203, 204);
+    margin-bottom: 20px;
+    font-family: Onest;
+    resize: none;
+
+}
+
+.intrebare {
+    resize: none;
+    height: 200px;
+}
+
+.transmite {
+    cursor: pointer;
+    background-color: rgb(143, 209, 150);
+    float: right;
+    width: 100px;
+    margin-right: 9%;
+    border-radius: 10%;
+    padding: 5px;
+    font-size: 18px;
+    border-color: rgb(143, 209, 150);
+}
+
+.item-h3 i {
+    padding-right: 15px;
+}
 
